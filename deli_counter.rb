@@ -21,5 +21,7 @@ def now_serving(deli_array)
   if deli_array.length == 0
     puts "There is nobody waiting to be served!"
   else 
+    puts "Currently serving #{deli_array[0]}"
+    deli_array.shift
   end
 end
