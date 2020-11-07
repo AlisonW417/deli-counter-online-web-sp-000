@@ -12,6 +12,6 @@ def line(deli_array)
   end
 end
 
-def take_a_number(array, name)
+def take_a_number(deli_array, name)
   
 end
