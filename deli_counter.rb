@@ -14,5 +14,5 @@ end
 
 def take_a_number(deli_array, name)
   deli_array.push(name)
-  puts "Welcome, #{name}. You are number #{place} in line."
+  puts "Welcome, #{name}. You are number #{deli_array.length} in line."
 end
