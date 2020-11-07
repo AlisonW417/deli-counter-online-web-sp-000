@@ -6,8 +6,9 @@ def line(deli_array)
   else
     deli_array.each_with_index do |name, index|
       place = index + 1
-      line_array << "The line is currently: #{place}. #{name}"
+      line_array << "#{place}. #{name}"
     end
+    
   end
 end
 
