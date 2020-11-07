@@ -2,11 +2,12 @@
 def line(array)
   if array.length >= 1
     array.each do |name|
-      place = array[index] + 1 
-      puts "The links is currently: #{place}. #{name}"
+      counter = 1 
+      puts "The links is currently: #{counter}. #{name}"
+      counter += 1
     end
   else
-    return "The line is currently empty"  
+    puts "The line is currently empty"  
   end
 end
 
