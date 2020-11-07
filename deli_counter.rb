@@ -8,7 +8,7 @@ def line(deli_array)
       place = index + 1
       line_array << "#{place}. #{name}"
     end
-    
+    puts "The line is currently: #{line_array.join(" ")}"
   end
 end
 
