@@ -19,7 +19,7 @@ end
 
 def now_serving(deli_array)
   if deli_array.length == 0
-    puts "There is nobody wating to be served!"
+    puts "There is nobody waiting to be served!"
   else 
   end
 end
