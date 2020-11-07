@@ -1,8 +1,8 @@
 # Write your code here.
 def line(array)
   if array.length > 0
-    counter = 1
-    array.each do |name|
+    array.each_with_index do |name, index|
+      
       puts "The line is currently: #{counter}. #{name}"
       counter += 1
     end
