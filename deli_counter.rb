@@ -16,3 +16,10 @@ def take_a_number(deli_array, name)
   deli_array.push(name)
   puts "Welcome, #{name}. You are number #{deli_array.length} in line."
 end
+
+def now_serving(deli_array)
+  if deli_array.length == 0
+    puts "There is nobody wating to be served!"
+  else 
+  end
+end
