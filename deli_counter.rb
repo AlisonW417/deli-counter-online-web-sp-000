@@ -1,8 +1,8 @@
 # Write your code here.
 def line(array)
   if array.length >= 1
+    counter = 1
     array.each do |name|
-      counter = 1 
       puts "The links is currently: #{counter}. #{name}"
       counter += 1
     end
