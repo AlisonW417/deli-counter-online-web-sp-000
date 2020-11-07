@@ -2,9 +2,8 @@
 def line(array)
   if array.length > 0
     array.each_with_index do |name, index|
-      
-      puts "The line is currently: #{counter}. #{name}"
-      counter += 1
+      place = index + 1
+      puts "The line is currently: #{place}. #{name}"
     end
   else
     puts "The line is currently empty."  
